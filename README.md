@@ -66,15 +66,15 @@ The response is wrapped in a `PagedResult` object, providing full pagination met
   "pageStart": 0,
   "pageSize": 2
 }
-
+```
 ### Example Error Response (400 Bad Request)
 
 Returned if any of the query parameters fail validation.
 
 ```json
 "Returned if any of the query parameters fail validation."
-
-Example Error Response (500 Internal Server Error)
+```
+### Example Error Response (500 Internal Server Error)
 
 Returned by the global exception handler if an unexpected error occurs.
 
@@ -84,7 +84,7 @@ Returned by the global exception handler if an unexpected error occurs.
   "detail": null,
   "status": 500
 }
-
+```
 ---
 
 # ***Original Challenge (Completed)***
